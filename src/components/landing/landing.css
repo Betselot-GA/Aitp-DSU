@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @font-face {
   font-family: "futura-bold";
-  src: url("../public/fonts/Futura-Bold.woff") format("woff");
+  src: url("../../../public//fonts/Futura-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -275,7 +275,6 @@ a h4:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url("https://th.bing.com/th/id/R.dc784f163dfae5549903e61340a52a48?rik=fWzgdtWJK1p7Ug&riu=http%3a%2f%2fblogs.classicalmpr.org%2fclassical-notes%2ffiles%2f2015%2f09%2fDeltaStateUniversityCampus-1476x1107.jpg&ehk=eUI7salgKoKsr8Z1osT9eengq2EfAAcEofWAHRPpzbs%3d&risl=&pid=ImgRaw&r=0");
 }
 
 .border-primary {
