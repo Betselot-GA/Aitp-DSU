@@ -3,23 +3,23 @@ const SuccessSection = () => {
 
     return (
       <section
-        class="section bg-cover"
+        className="section bg-cover"
         data-background="images/backgrounds/success-story.jpg"
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-sm-4 position-relative success-video">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-sm-4 position-relative success-video">
               <a
-                class="play-btn venobox"
+                className="play-btn venobox"
                 href="https://youtu.be/nA1Aqp0sPQo"
                 data-vbtype="video"
               >
-                <i class="ti-control-play"></i>
+                <i className="ti-control-play"></i>
               </a>
             </div>
-            <div class="col-lg-6 col-sm-8">
-              <div class="bg-white p-5">
-                <h2 class="section-title">Success Stories</h2>
+            <div className="col-lg-6 col-sm-8">
+              <div className="bg-white p-5">
+                <h2 className="section-title">Success Stories</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -1,6 +1,5 @@
-import React from 'react'
-
-const AboutLanding = () => {
+import React from 'react';
+const EventDetailLanding = () => {
  
     return (
       <section
@@ -12,12 +11,12 @@ const AboutLanding = () => {
             <div className="col-md-8">
               <ul className="list-inline custom-breadcrumb mb-2">
                 <li className="list-inline-item">
-                  <a className="h2 text-primary font-secondary" href="index.html">
-                    Home
+                  <a className="h2 text-primary font-secondary" href="/events">
+                    Upcoming Events
                   </a>
                 </li>
                 <li className="list-inline-item text-white h3 font-secondary nasted">
-                  About Us
+                  Event Details
                 </li>
               </ul>
               <p className="text-lighten mb-0">
@@ -33,4 +32,4 @@ const AboutLanding = () => {
     
 }
  
-export default AboutLanding;
+export default EventDetailLanding;
