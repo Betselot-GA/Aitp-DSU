@@ -16,7 +16,7 @@ const Home = () => {
             <Landing />
             <Section />
             <AboutSection />
-            <TrainingSection />
+            {/* <TrainingSection /> */}
             <SuccessSection />
             <Events />
             <Speakers/>

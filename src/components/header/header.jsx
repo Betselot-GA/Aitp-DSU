@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Logo from "../../images/logo.png";
 
 const Header = () => {
     return (
@@ -7,7 +8,7 @@ const Header = () => {
             <div className="navigation w-100">
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-dark p-0">
-                        <a className="navbar-brand" href="index.html"><img src="../../../public/images/logo.png" alt="logo"/></a>
+                        <a className="navbar-brand" href="index.html"><img src={Logo} height="100" alt="logo"/></a>
                         <button className="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
                             aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -15,7 +16,7 @@ const Header = () => {
 
                         <div className="collapse navbar-collapse" id="navigation">
                             <ul className="navbar-nav ml-auto text-center">
-                                <li className="nav-item active">
+                                <li className="nav-item">
                                     <a className="nav-link" href="/">Home</a>
                                 </li>
                                 <li className="nav-item @@about">
