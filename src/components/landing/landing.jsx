@@ -20,7 +20,7 @@ const Landing = () => (
             >
               Delta State Information Technology Students of America
             </h1>
-            <p
+            {/* <p
               className="text-muted mb-4"
               data-animation-out="fadeOutUp"
               data-delay-out="5"
@@ -29,7 +29,7 @@ const Landing = () => (
               data-delay-in=".4"
             >
               Your bright future
-            </p>
+            </p> */}
             <a
               href="/contact"
               className="btn btn-primary"

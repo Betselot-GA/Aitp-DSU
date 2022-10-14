@@ -59,9 +59,9 @@ const EventDetail = () =>{
           </li>
         </ul>
       </div>
-      <div class="col-lg-3 text-lg-right text-left">
-        <a href="event-single.html" class="btn btn-primary">Apply now</a>
-      </div>
+      {/* <div class="col-lg-3 text-lg-right text-left">
+        <a href="/event-single" class="btn btn-primary">Apply now</a>
+      </div> */}
     
       <div class="col-12 mt-4 order-4">
         <div class="border-bottom border-primary"></div>
@@ -150,7 +150,7 @@ const EventDetail = () =>{
       </div>
       <div class="card-body">
         <p><i class="ti-location-pin text-primary mr-2"></i>Dhanmondi Lake, Dhaka</p>
-        <a href="event-single.html"><h4 class="card-title">Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
+        <a href="/event-single"><h4 class="card-title">Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
       </div>
     </div>
   </div>
@@ -162,7 +162,7 @@ const EventDetail = () =>{
       </div>
       <div class="card-body">
         <p><i class="ti-location-pin text-primary mr-2"></i>Dhanmondi Lake, Dhaka</p>
-        <a href="event-single.html"><h4 class="card-title">Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
+        <a href="/event-single"><h4 class="card-title">Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
       </div>
     </div>
   </div>
@@ -174,7 +174,7 @@ const EventDetail = () =>{
       </div>
       <div class="card-body">
 =        <p><i class="ti-location-pin text-primary mr-2"></i>Dhanmondi Lake, Dhaka</p>
-        <a href="event-single.html"><h4 class="card-title">Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
+        <a href="/event-single"><h4 class="card-title">Lorem ipsum dolor amet, consectetur adipisicing.</h4></a>
       </div>
     </div>
   </div>

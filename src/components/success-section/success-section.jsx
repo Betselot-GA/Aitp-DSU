@@ -11,7 +11,7 @@ const SuccessSection = () => {
             <div className="col-lg-6 col-sm-4 position-relative success-video">
               <a
                 className="play-btn venobox"
-                href="https://youtu.be/nA1Aqp0sPQo"
+                href="https://www.youtube.com/watch?v=stmngrY7TiQ"
                 data-vbtype="video"
               >
                 <i className="ti-control-play"></i>
